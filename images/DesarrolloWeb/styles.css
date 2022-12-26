@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+.arriba {
+    background-image: url("images/fondo.jpg");
+    background-repeat: no-repeat;
+    height:500px;
+    width: 100%;
+    background-size: cover;
+    /*background-position:center;*/
+    
+}
+
+.arriba-resume{
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    height:500px;
+    width: 100%;
+    background-size: cover;
+    /*background-position:center;*/
+    
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 60px;
+    padding-top: 20rem;
+}
+
+h2 {
+    margin-left: 60px;
+}
+
+h1, h2{
+    color: #5557ee;
+    font-style: italic;
+    font-family: 'Merriweather', serif;
+}
+
+h3{
+    font-size: 50px;
+    padding-top: 4rem;
+    font-family: 'Merriweather', serif;
+}
+
+h4 {
+    font-family: 'Merriweather', serif;
+}
+
+h4.titulo{
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+
+.elegantshadow {
+    color: #ffffff;
+    letter-spacing: .10em;
+    text-shadow: 
+      1px -1px 0 #06242c, 
+      -1px 3px 1px #07242c, 
+      -2px 4px 1px #07242c, 
+      -3px 5px 1px #08262e, 
+      -4px 6px 1px #09262e, 
+      -5px 7px 1px #0c2830, 
+      -6px 8px 1px #0e272e, 
+      -7px 9px 1px #10282e;
+}
+
+.elegantshadow-oscuro {
+    color: #ffffff;
+    letter-spacing: .10em;
+    text-shadow: 
+      1px -1px 0 #04171d, 
+      -1px 3px 1px #031216, 
+      -2px 4px 1px #04161b, 
+      -3px 5px 1px #041318, 
+      -4px 6px 1px #06191f, 
+      -5px 7px 1px #081a1f, 
+      -6px 8px 1px #0a1c20, 
+      -7px 9px 1px #09181b;
+}
+
+p {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.row{
+    margin-top: 7rem;
+    /*margin-bottom: 7rem;*/
+}
+
+.col{
+    /*text-align:justify;*/
+    color: rgb(212, 212, 212);
+}
+
+.card-img-top{
+    margin-top: 7rem;
+    width: 100px;
+    height: 100px;
+}
+
+.card-body{
+    text-align: justify;
+    margin-bottom: 7rem;
+}
+
+.icono {
+    width: 25px;
+    height: 25px;
+}
+
+.icono-grande{
+    width: 10rem;
+    height: 10rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro{
+    font-size: 22px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: justify;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.img-foot{
+    width: 100px;
+    height: 100px;
+}
+
+.text-muted{
+    margin-bottom: 7rem;
+}
+
+.centrado{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.decorado{
+    background-color: #45c1d5;
+    width: 15rem;
+    text-align: center;
+    margin: auto;
+    color: azure;
+    border-radius: 47%;
+}
+
+.row-resume {
+    margin-top: 0;
+    padding-bottom: 1rem;
+}
+
+.col-resume {
+    text-align: center;
+}
+
+.card-body-resume {
+    margin-bottom: 0;
+}
+
+.bg-dark {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.no-salto{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+table {
+    text-align: center;
+}
+
+.espacio{
+    padding-top: 5rem;
+}
+
+.espacio2{
+    padding-top: 2rem;
+}
+
+.espacio3{
+    margin-bottom: 7rem;
+}
